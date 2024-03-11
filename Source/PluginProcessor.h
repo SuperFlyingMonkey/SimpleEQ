@@ -137,6 +137,9 @@ private:
         }
         
     }
+    void updateLowCutFilter(const ChainSettings& chainsettings);
+    void updateHighCutFilter(const ChainSettings& chainsettings);
+    void updateFilters();
 
     
     //==============================================================================
